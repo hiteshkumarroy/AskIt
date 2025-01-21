@@ -1,0 +1,35 @@
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 15px 0;
+  background-color: #f9f9f9;
+}
+
+.blocks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.block {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background-color: #e6e6e6;
+  display: inline-block;
+}
+
+
+.option {
+  padding: 5px;
+}
+
+
+.correct {
+  padding: 5px;
+  font-weight: bold;
+  color: green;
+}
